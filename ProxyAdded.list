@@ -25,8 +25,6 @@ DOMAIN-SUFFIX,railjournal.com
 DOMAIN-SUFFIX,laowang.vip
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,flightradar24.com
-DOMAIN-SUFFIX,javdb.com
-DOMAIN-SUFFIX,jdbimgs.com
 DOMAIN-SUFFIX,mymypic.net
 DOMAIN-SUFFIX,abooky.com
 DOMAIN-SUFFIX,laowang.vip
@@ -37,6 +35,8 @@ DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,bannedbook.org
 #javapp
 DOMAIN-SUFFIX,shukego.com
+DOMAIN-SUFFIX,javdb.com
+DOMAIN-SUFFIX,jdbimgs.com
 
 #小说漫画
 DOMAIN-SUFFIX,aaread.club
