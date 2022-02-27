@@ -34,6 +34,10 @@ DOMAIN-SUFFIX,fc2id.com
 DOMAIN-SUFFIX,dandanzan.com
 DOMAIN-SUFFIX,bannedbook.org
 DOMAIN-SUFFIX,qtycloud.xyz
+#kodi
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.org
+DOMAIN-SUFFIX,tmdb.org
 #javapp
 #DOMAIN-SUFFIX,shukego.com
 DOMAIN-SUFFIX,javdb.com
