@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,flightradar24.com
 DOMAIN-SUFFIX,gouvernement.fr
 DOMAIN-SUFFIX,gtloli.gay
 DOMAIN-SUFFIX,hjd2048.com
+DOMAIN-SUFFIX,investing.com
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,jmvbt.com
 DOMAIN-SUFFIX,laowang.vip
@@ -48,10 +49,10 @@ DOMAIN-SUFFIX,imdb.com
 
 #小说漫画
 DOMAIN-SUFFIX,aaread.club
-DOMAIN-SUFFIX,rousewu.in
-DOMAIN-SUFFIX,rouman5.comy
-DOMAIN-SUFFIX,xbookcn.net
 DOMAIN-SUFFIX,ikanwzd.top
 DOMAIN-SUFFIX,manxiangge.com
-DOMAIN-SUFFIX,wzdhm.cc
 DOMAIN-SUFFIX,migumh.com
+DOMAIN-SUFFIX,rouman5.comy
+DOMAIN-SUFFIX,rousewu.in
+DOMAIN-SUFFIX,wzdhm.cc
+DOMAIN-SUFFIX,xbookcn.net
