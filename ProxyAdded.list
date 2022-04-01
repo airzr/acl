@@ -23,7 +23,6 @@ DOMAIN-SUFFIX,flightradar24.com
 DOMAIN-SUFFIX,gouvernement.fr
 DOMAIN-SUFFIX,gtloli.gay
 DOMAIN-SUFFIX,hjd2048.com
-DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,jmvbt.com
 DOMAIN-SUFFIX,laowang.vip
@@ -38,6 +37,7 @@ DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,xslist.org
 #kodi
+DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thetvdb.org
 DOMAIN-SUFFIX,tmdb.org
