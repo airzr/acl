@@ -684,6 +684,7 @@ var domains = {
   "kechara.com": 1,
   "keepandshare.com": 1,
   "kenengba.com": 1,
+  "kh.google.com": 1,  
   "kickstarter.com": 1,
   "killwall.com": 1,
   "kinghost.com": 1,
