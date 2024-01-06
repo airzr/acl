@@ -1498,7 +1498,7 @@ var domains = {
 }
 
 
-var proxy = "PROXY 192.168.192.199:7893; DIRECT;";
+var proxy = "PROXY 192.168.192.199:7890; DIRECT;";
 var direct = "DIRECT;";
 
 function FindProxyForURL(url, host) {
