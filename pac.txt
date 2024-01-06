@@ -6,8 +6,6 @@ var mainland = {
   "juejin.im": 1,
   "wanmen.org": 1,
 }
-
-
 var domains = {
   "10musume.com": 1,
   "123rf.com": 1,
@@ -1496,8 +1494,6 @@ var domains = {
   "zuola.com": 1,
   "zvereff.com": 1,
 }
-
-
 var proxy = "PROXY 192.168.192.199:7890; DIRECT;";
 var direct = "DIRECT;";
 
