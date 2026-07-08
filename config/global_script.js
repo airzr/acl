@@ -1,51 +1,4 @@
-/***
- * Clash Verge Rev 全局扩展脚本（懒人配置）/ Mihomo Party 覆写脚本
- * 基于二开: https://github.com/dahaha-365/YaNet/
- */
-
 /**
- * 整个脚本的总开关，在Mihomo Party使用的话，请保持为true
- * true = 启用
- * false = 禁用
- */
-const enable = true
-
-/**
- * urltest自动选择开关
- * true = 使用urltest自动选择最低延迟节点
- * false = 使用select手动选择节点
- */
-const enableUrltest = false
-
-/**
- * DNS覆写总开关
- * true = 启用
- * false = 禁用
- */
-const enableDnsOverride = false
-
-// ===== 性能优化：预编译正则表达式 =====
-const RATIO_REGEX = /[xX✕✖⨉倍率](\d+(?:\.\d+)?)[xX✕✖⨉倍率]?/i
-
-/**
- * 分流规则配置，会自动生成对应的策略组
- * 设置的时候可遵循“最小，可用”原则，把自己不需要的规则全禁用掉，提高效率
- * true = 启用
- * false = 禁用
- */
-const ruleOptions = {
-    apple: true, // 苹果服务
-    microsoft: true, // 微软服务
-    github: true, // Github服务
-    google: true, // Google服务
-    openai: true, // 国外AI和GPT
-    spotify: true, // Spotify
-    youtube: true, // YouTube
-    bahamut: false, // 巴哈姆特/动画疯
-    netflix: false, // Netflix网飞
-    tiktok: true, // 国际版抖音
-    disney: false, // 迪士尼
-    pixiv: true, // /***
  * Clash Verge Rev 全局扩展脚本（懒人配置）/ Mihomo Party 覆写脚本
  * 基于二开: https://github.com/dahaha-365/YaNet/
  */
@@ -92,13 +45,13 @@ const ruleOptions = {
     netflix: false, // Netflix网飞
     tiktok: false, // 国际版抖音
     disney: false, // 迪士尼
-    pixiv: true, // Pixiv
+    pixiv: false, // Pixiv
     hbo: false, // HBO
     biliintl: false, // 哔哩哔哩东南亚
     tvb: false, // TVB
     hulu: false, // Hulu
     primevideo: false, // 亚马逊prime video
-    telegram: false, // Telegram通讯软件
+    telegram: true, // Telegram通讯软件
     line: false, // Line通讯软件
     whatsapp: false, // Whatsapp
     games: true, // 游戏策略组
