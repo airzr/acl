@@ -15,7 +15,7 @@ const enable = true
  * true = 使用urltest自动选择最低延迟节点
  * false = 使用select手动选择节点
  */
-const enableUrltest = false
+const enableUrltest = true
 
 /**
  * DNS覆写总开关
@@ -45,13 +45,13 @@ const ruleOptions = {
     netflix: false, // Netflix网飞
     tiktok: false, // 国际版抖音
     disney: false, // 迪士尼
-    pixiv: true, // Pixiv
+    pixiv: false, // Pixiv
     hbo: false, // HBO
     biliintl: false, // 哔哩哔哩东南亚
     tvb: false, // TVB
     hulu: false, // Hulu
     primevideo: false, // 亚马逊prime video
-    telegram: false, // Telegram通讯软件
+    telegram: true, // Telegram通讯软件
     line: false, // Line通讯软件
     whatsapp: false, // Whatsapp
     games: true, // 游戏策略组
