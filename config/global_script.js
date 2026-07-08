@@ -15,7 +15,7 @@ const enable = true
  * true = 使用urltest自动选择最低延迟节点
  * false = 使用select手动选择节点
  */
-const enableUrltest = false
+const enableUrltest = true
 
 /**
  * DNS覆写总开关
