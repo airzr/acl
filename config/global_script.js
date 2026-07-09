@@ -737,13 +737,16 @@ function main(config) {
             ...ruleProviderCommon,
             behavior: 'classical',
             format: 'text',
-            url: 'https://github.com/dahaha-365/YaNet/raw/refs/heads/dist/rulesets/mihomo/ai.list',
+            url: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/ProxyAdded.list',
+            path: './ruleset/YaNet/private.list',
         })
         config['proxy-groups'].push({
             ...groupBaseOption,
             name: '常用网站',
             type: 'select',
             proxies: ['默认节点', ...proxyGroupsRegionNames],
+            url: 'http://www.google.com/generate_204',
+            /**icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/ChatGPT.png',**/
         })
     }
     if (ruleOptions.openai) {
