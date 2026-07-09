@@ -75,123 +75,123 @@ const regionOptions = {
     defaultIcon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Proxy.png',
     regions: [
         {
-            name: 'HK香港',
+            name: '🇭🇰香港',
             regex: /港|香港|HONG KONG|HONGKONG|hk|HK|hongkong|hong kong/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png',
         },
         {
-            name: 'US美国',
+            name: '🇺🇸美国',
             regex: /美|🇺🇸|us|USA|usa|US|united state|UNITED STATE|america|America|AMERICA/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png',
         },
         {
-            name: 'JP日本',
+            name: '🇯🇵日本',
             regex: /日|日本|JP|Jp|🇯🇵|jp|japan|JAPAN|iij/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png',
         },
         {
-            name: 'KR韩国',
+            name: '🇰🇷韩国',
             regex: /韩|韩国|kr|KR|korea|KOREA/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png',
         },
         {
-            name: 'SG新加坡',
+            name: '🇸🇬新加坡',
             regex: /新加坡|🇸🇬|sg|SG|singapore|SINGAPORE/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png',
         },
         {
-            name: 'CN中国大陆',
+            name: '🇨🇳中国大陆',
             regex: /中国|🇨🇳|cn|CN|china|CHINA/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/China_Map.png',
         },
         {
-            name: 'TW台湾',
+            name: '🇹🇼台湾',
             regex: /台湾|🇹🇼|tw|TW|taiwan|tai wan|TAIWAN|TAI WAN/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png',
         },
         {
-            name: 'GB英国',
+            name: '🇬🇧英国',
             regex: /英|uk|UK|united kingdom|great britain/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_Kingdom.png',
         },
         {
-            name: 'DE德国',
+            name: '🇩🇪德国',
             regex: /德国|de|DE|germany/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Germany.png',
         },
         {
-            name: 'MY马来西亚',
+            name: '🇲🇾马来西亚',
             regex: /马来|my|MY|malaysia/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Malaysia.png',
         },
         {
-            name: 'TK土耳其',
+            name: '🇹🇷土耳其',
             regex: /土耳其|tk|TK|tr|TR|turkey/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Turkey.png',
         },
         {
-            name: 'CA加拿大',
+            name: '🇨🇦加拿大',
             regex: /加拿大|ca|CA|canada|CANADA|CAN/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Canada.png',
         },
         {
-            name: 'FR法国',
+            name: '🇫🇷法国',
             regex: /法|法国|fr|FR|france|FRANCE|FRA/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/France.png',
         },
         {
-            name: 'GR希腊',
+            name: '🇬🇷希腊',
             regex: /希|希腊|gr|GR|greece|GREECE|GRC/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Greece.png',
         },
         {
-            name: 'LT立陶宛',
+            name: '🇱🇹立陶宛',
             regex: /立陶宛|lt|LT|lithuania|LITHUANIA|LTU/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Lithuania.png',
         },
         {
-            name: 'MK北马其顿',
+            name: '🇲🇰北马其顿',
             regex: /北马其顿|马其顿|mk|MK|macedonia|MACEDONIA|MKD/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/North_Macedonia.png',
         },
         {
-            name: 'NL荷兰',
+            name: '🇳🇱荷兰',
             regex: /荷|荷兰|nl|NL|netherlands|NETHERLANDS|holland|HOLLAND|NLD/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netherlands.png',
         },
         /**
         {
-            name: 'PL波兰',
+            name: '🇵🇱波兰',
             regex: /波|波兰|pl|PL|poland|POLAND|POL/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Poland.png',
         },
         **/
         {
-            name: 'SE瑞典',
+            name: '🇸🇪瑞典',
             regex: /瑞典|sweden|stockholm|🇸🇪/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Sweden.png',
         },
         {
-            name: 'AR阿根廷',
+            name: '🇦🇷阿根廷',
             regex: /阿根廷|🇦🇷|argentina/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Argentina.png',
@@ -265,26 +265,26 @@ const groupBaseOption = {
 
 // ===== 自动识别国家映射与工具 =====
 const CODE_TO_REGION = {
-  US: { name: 'US美国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png' },
-  HK: { name: 'HK香港', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png' },
-  JP: { name: 'JP日本', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png' },
-  KR: { name: 'KR韩国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png' },
-  SG: { name: 'SG新加坡', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png' },
-  CN: { name: 'CN中国大陆', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/China_Map.png' },
-  TW: { name: 'TW台湾省', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png' },
-  GB: { name: 'GB英国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_Kingdom.png' },
-  DE: { name: 'DE德国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Germany.png' },
-  MY: { name: 'MY马来西亚', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Malaysia.png' },
-  TR: { name: 'TK土耳其', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Turkey.png' },
-  CA: { name: 'CA加拿大', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Canada.png' },
-  FR: { name: 'FR法国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/France.png' },
-  GR: { name: 'GR希腊', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Greece.png' },
-  LT: { name: 'LT立陶宛', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Lithuania.png' },
-  MK: { name: 'MK北马其顿', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/North_Macedonia.png' },
-  NL: { name: 'NL荷兰', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netherlands.png' },
-  PL: { name: 'PL波兰', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Poland.png' },
-  SE: { name: 'SE瑞典', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Sweden.png' },
-  AR: { name: 'AR阿根廷', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Argentina.png' },
+  US: { name: '🇺🇸美国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png' },
+  HK: { name: '🇭🇰香港', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png' },
+  JP: { name: '🇯🇵日本', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png' },
+  KR: { name: '🇰🇷韩国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png' },
+  SG: { name: '🇸🇬新加坡', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png' },
+  CN: { name: '🇨🇳中国大陆', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/China_Map.png' },
+  TW: { name: '🇹🇼台湾', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png' },
+  GB: { name: '🇬🇧英国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_Kingdom.png' },
+  DE: { name: '🇩🇪德国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Germany.png' },
+  MY: { name: '🇲🇾马来西亚', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Malaysia.png' },
+  TR: { name: '🇹🇷土耳其', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Turkey.png' },
+  CA: { name: '🇨🇦加拿大', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Canada.png' },
+  FR: { name: '🇫🇷法国', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/France.png' },
+  GR: { name: '🇬🇷希腊', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Greece.png' },
+  LT: { name: '🇱🇹立陶宛', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Lithuania.png' },
+  MK: { name: '🇲🇰北马其顿', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/North_Macedonia.png' },
+  NL: { name: '🇳🇱荷兰', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netherlands.png' },
+  PL: { name: '🇵🇱波兰', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Poland.png' },
+  SE: { name: '🇸🇪瑞典', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Sweden.png' },
+  AR: { name: '🇦🇷阿根廷', icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Argentina.png' },
 };
 
 const FLAG_TO_CODE = {};
@@ -1171,3 +1171,11 @@ function main(config) {
     // 返回修改后的配置
     return config
 }
+
+
+
+
+
+
+
+ 
