@@ -746,7 +746,7 @@ function main(config) {
             type: 'select',
             proxies: ['默认节点', ...proxyGroupsRegionNames],
             url: 'http://www.google.com/generate_204',
-            icon: 'https://play-lh.googleusercontent.com/8pFuLOHF62ADcN0ISUAyEueA5G8IF49mX_6Az6pQNtokNVHxIVbS1L2NM62H-k02rLM=w240-h480-rw',
+            icon: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/icons/pikpak.jpg',
         })
     }
     if (ruleOptions.openai) {
