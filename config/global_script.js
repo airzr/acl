@@ -34,6 +34,7 @@ const RATIO_REGEX = /[xX✕✖⨉倍率](\d+(?:\.\d+)?)[xX✕✖⨉倍率]?/i
  * false = 禁用
  */
 const ruleOptions = {
+    private: true, // 自用服务
     apple: true, // 苹果服务
     microsoft: true, // 微软服务
     github: true, // Github服务
@@ -729,7 +730,22 @@ function main(config) {
             udp: true,
         })
     }
-
+    if (ruleOptions.private) {
+        rules.push(
+        )
+        ruleProviders.set('private', {
+            ...ruleProviderCommon,
+            behavior: 'classical',
+            format: 'text',
+            url: 'https://github.com/dahaha-365/YaNet/raw/refs/heads/dist/rulesets/mihomo/ai.list',
+        })
+        config['proxy-groups'].push({
+            ...groupBaseOption,
+            name: '常用网站',
+            type: 'select',
+            proxies: ['默认节点', ...proxyGroupsRegionNames],
+        })
+    }
     if (ruleOptions.openai) {
         rules.push(
             'DOMAIN-SUFFIX,grazie.ai,国外AI',
