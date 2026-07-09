@@ -732,6 +732,7 @@ function main(config) {
     }
     if (ruleOptions.private) {
         rules.push(
+            'RULE-SET,private,常用网站',
         )
         ruleProviders.set('private', {
             ...ruleProviderCommon,
