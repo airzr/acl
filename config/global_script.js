@@ -746,7 +746,7 @@ function main(config) {
             type: 'select',
             proxies: ['默认节点', ...proxyGroupsRegionNames],
             url: 'http://www.google.com/generate_204',
-            /**icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/ChatGPT.png',**/
+            icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/ChatGPT.png',
         })
     }
     if (ruleOptions.openai) {
