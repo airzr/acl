@@ -43,7 +43,7 @@ const ruleOptions = {
     youtube: true, // YouTube
     bahamut: false, // 巴哈姆特/动画疯
     netflix: false, // Netflix网飞
-    tiktok: false, // 国际版抖音
+    tiktok: true, // 国际版抖音
     disney: false, // 迪士尼
     pixiv: false, // Pixiv
     hbo: false, // HBO
