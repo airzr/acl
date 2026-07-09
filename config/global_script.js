@@ -34,7 +34,7 @@ const RATIO_REGEX = /[xX✕✖⨉倍率](\d+(?:\.\d+)?)[xX✕✖⨉倍率]?/i
  * false = 禁用
  */
 const ruleOptions = {
-    private: true, // 自用服务
+    pikpak: true, // 自用服务
     apple: true, // 苹果服务
     microsoft: true, // 微软服务
     github: true, // Github服务
@@ -730,26 +730,7 @@ function main(config) {
             udp: true,
         })
     }
-    if (ruleOptions.private) {
-        rules.push(
-            'RULE-SET,private,常用网站',
-        )
-        ruleProviders.set('private', {
-            ...ruleProviderCommon,
-            behavior: 'classical',
-            format: 'text',
-            url: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/ProxyAdded.list',
-            path: './ruleset/YaNet/private.list',
-        })
-        config['proxy-groups'].push({
-            ...groupBaseOption,
-            name: '常用网站',
-            type: 'select',
-            proxies: ['默认节点', ...proxyGroupsRegionNames],
-            url: 'http://www.google.com/generate_204',
-            icon: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/icons/pikpak.jpg',
-        })
-    }
+    
     if (ruleOptions.openai) {
         rules.push(
             'DOMAIN-SUFFIX,grazie.ai,国外AI',
@@ -782,6 +763,27 @@ function main(config) {
             proxies: ['默认节点', ...proxyGroupsRegionNames, '直连'],
             url: 'https://www.youtube.com/s/desktop/494dd881/img/favicon.ico',
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/YouTube.png',
+        })
+    }
+
+    if (ruleOptions.pikpak) {
+        rules.push(
+            'RULE-SET,pikpak,常用网站',
+        )
+        ruleProviders.set('pikpak', {
+            ...ruleProviderCommon,
+            behavior: 'classical',
+            format: 'text',
+            url: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/ProxyAdded.list',
+            path: './ruleset/YaNet/private.list',
+        })
+        config['proxy-groups'].push({
+            ...groupBaseOption,
+            name: '常用网站',
+            type: 'select',
+            proxies: ['默认节点', ...proxyGroupsRegionNames],
+            url: 'http://www.google.com/generate_204',
+            icon: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/icons/pikpak.jpg',
         })
     }
 
