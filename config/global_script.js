@@ -142,7 +142,7 @@ const regionOptions = {
         },
         {
             name: 'CA加拿大',
-            regex: /加|加拿大|ca|CA|canada|CANADA|CAN/i,
+            regex: /加拿大|ca|CA|canada|CANADA|CAN/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Canada.png',
         },
