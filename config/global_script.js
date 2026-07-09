@@ -76,7 +76,7 @@ const regionOptions = {
     regions: [
         {
             name: '🇭🇰香港',
-            regex: /港|香港|HONG KONG|HONGKONG|hk|HK|hongkong|hong kong/i,
+            regex: /港|香港|HONG KONG|HONGKONG|hk|🇭🇰|hongkong|hong kong/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png',
         },
@@ -94,7 +94,7 @@ const regionOptions = {
         },
         {
             name: '🇰🇷韩国',
-            regex: /韩|韩国|kr|KR|korea|KOREA/i,
+            regex: /韩|韩国|kr|🇰🇷|korea|KOREA/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png',
         },
@@ -118,68 +118,68 @@ const regionOptions = {
         },
         {
             name: '🇬🇧英国',
-            regex: /英|uk|UK|united kingdom|great britain/i,
+            regex: /英|uk|UK|🇬🇧|united kingdom|great britain/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_Kingdom.png',
         },
         {
             name: '🇩🇪德国',
-            regex: /德国|de|DE|germany/i,
+            regex: /德国|de|🇩🇪|germany/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Germany.png',
         },
         {
             name: '🇲🇾马来西亚',
-            regex: /马来|my|MY|malaysia/i,
+            regex: /马来|my|🇲🇾|malaysia/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Malaysia.png',
         },
         {
             name: '🇹🇷土耳其',
-            regex: /土耳其|tk|TK|tr|TR|turkey/i,
+            regex: /土耳其|tk|TK|tr|🇹🇷|turkey/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Turkey.png',
         },
         {
             name: '🇨🇦加拿大',
-            regex: /加拿大|ca|CA|canada|CANADA|CAN/i,
+            regex: /加拿大|ca|🇨🇦|canada|CANADA|CAN/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Canada.png',
         },
         {
             name: '🇫🇷法国',
-            regex: /法|法国|fr|FR|france|FRANCE|FRA/i,
+            regex: /法|法国|fr|🇫🇷|france|FRANCE|FRA/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/France.png',
         },
         {
             name: '🇬🇷希腊',
-            regex: /希|希腊|gr|GR|greece|GREECE|GRC/i,
+            regex: /希|希腊|gr|🇬🇷|greece|GREECE|GRC/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Greece.png',
         },
         {
             name: '🇱🇹立陶宛',
-            regex: /立陶宛|lt|LT|lithuania|LITHUANIA|LTU/i,
+            regex: /立陶宛|lt|🇱🇹|lithuania|LITHUANIA|LTU/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Lithuania.png',
         },
         {
             name: '🇲🇰北马其顿',
-            regex: /北马其顿|马其顿|mk|MK|macedonia|MACEDONIA|MKD/i,
+            regex: /北马其顿|马其顿|mk|🇲🇰|macedonia|MACEDONIA|MKD/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/North_Macedonia.png',
         },
         {
             name: '🇳🇱荷兰',
-            regex: /荷|荷兰|nl|NL|netherlands|NETHERLANDS|holland|HOLLAND|NLD/i,
+            regex: /荷|荷兰|nl|🇳🇱|netherlands|NETHERLANDS|holland|HOLLAND|NLD/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netherlands.png',
         },
         /**
         {
             name: '🇵🇱波兰',
-            regex: /波|波兰|pl|PL|poland|POLAND|POL/i,
+            regex: /波|波兰|pl|🇵🇱|poland|POLAND|POL/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Poland.png',
         },
@@ -777,7 +777,7 @@ function main(config) {
             behavior: 'classical',
             format: 'text',
             url: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/ProxyAdded.list',
-            path: './ruleset/YaNet/pikpak.list',
+            path: './ruleset/YaNet/private.list',
         })
         config['proxy-groups'].push({
             ...groupBaseOption,
@@ -1170,12 +1170,4 @@ function main(config) {
 
     // 返回修改后的配置
     return config
-}
-
-
-
-
-
-
-
- 
+} 
