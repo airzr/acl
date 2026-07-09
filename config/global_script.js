@@ -176,12 +176,14 @@ const regionOptions = {
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netherlands.png',
         },
+        /**
         {
             name: 'PL波兰',
             regex: /波|波兰|pl|PL|poland|POLAND|POL/i,
             ratioLimit: 5,
             icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Poland.png',
         },
+        **/
         {
             name: 'SE瑞典',
             regex: /瑞典|sweden|stockholm|🇸🇪/i,
