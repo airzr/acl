@@ -777,7 +777,7 @@ function main(config) {
             behavior: 'classical',
             format: 'text',
             url: 'https://raw.githubusercontent.com/airzr/acl/refs/heads/main/ProxyAdded.list',
-            path: './ruleset/YaNet/private.list',
+            path: './ruleset/YaNet/pikpak.list',
         })
         config['proxy-groups'].push({
             ...groupBaseOption,
